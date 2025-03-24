@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Handle reset votes button click
   resetButton.addEventListener('click', () => {
-    const voteCountElement = detailedInfo.querySelector('#vote-count')
+    const voteCountElement = detailedInfo.querySelector('#vote-count');
     voteCountElement.textContent = 0;
   });
 
